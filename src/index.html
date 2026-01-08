@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modulaire shop-app</title>
+
+    <!-- Vite entry -->
+    <script type="module" src="./core/main.js"></script>
+</head>
+<body>
+<form data-review-form>
+    <label>
+        Product:
+        <select name="product">
+            <option value="1">Laptop</option>
+            <option value="2">Telefoon</option>
+            <option value="3">Tablet</option>
+        </select>
+    </label>
+
+    <input name="name" placeholder="Naam" required />
+    <input name="review" placeholder="Review" required />
+    <button>Voeg review toe</button>
+</form>
+
+<div data-reviews="1"></div>
+<div data-reviews="2"></div>
+<div data-reviews="3"></div>
+</body>
+</html>
